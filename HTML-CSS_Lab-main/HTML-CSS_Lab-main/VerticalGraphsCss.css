@@ -1,0 +1,116 @@
+.headerContainer{
+position: relative;
+}
+
+section{
+    position: relative;
+    margin-left: 40%;
+    margin-top: 2em;
+    background-color: lightgray;
+    width: 270px;
+    height: 500px;
+}
+
+#percentage1{
+    position: absolute;
+    padding-left: 35px;
+}
+
+#percentage2{
+    position: absolute;
+    padding-left: 120px;
+}
+
+#percentage3{
+    position: absolute;
+    padding-left: 205px;
+}
+  
+
+.box{
+    display:inline-block;
+    height: 400px;
+    width: 60px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: white;
+  }
+
+#box-animation1{
+    position: absolute;
+    max-height: 400px;
+    width: 60px;
+    background-color: gray;
+    bottom: 50px;
+    left: 20px;
+    transform-origin:  bottom;
+    animation: increasePercentageWise1;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both
+    
+  }
+
+  #box-animation2{
+    position: absolute;
+    max-height: 400px;
+    width: 60px;
+    background-color: gray;
+    bottom: 50px;
+    left: 104px;
+    transform-origin:  bottom;
+    animation: increasePercentageWise2;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both
+  }
+
+  #box-animation3{
+    position: absolute;
+    max-height: 400px;
+    width: 60px;
+    background-color: gray;
+    bottom: 50px;
+    left: 188px;
+    transform-origin:  bottom;
+    animation: increasePercentageWise3;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both
+  }
+  
+  @keyframes increasePercentageWise1 {
+    
+    from{
+        height: 0%;
+      }
+    to{
+        height: 120px;
+      }
+
+  }
+  @keyframes increasePercentageWise2 {
+    
+    from{
+        height: 0%;
+      }
+    to{
+        height: 160px;
+      }
+
+
+  }
+  @keyframes increasePercentageWise3 {
+    
+    from{
+        height: 0%;
+      }
+    to{
+        height: 320px;
+      }
+
+
+  }
+
+
+ 
